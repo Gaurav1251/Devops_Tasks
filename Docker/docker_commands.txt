@@ -1,0 +1,68 @@
+Docker Commands:
+1. docker run <image name> - your container will be created.
+2. docker run -d <image name> - runs your image in detached mode.
+3. docker ps - running container.
+4. docker ps -a - all containers (exited and running).
+5. docker top <cont id> - check process inside the container.
+6. docker inspect <container id> - detailed information of container.
+7. docker run -d -p 8080:80 <image id> - assign specific port expose outside.
+8. docker run -d -P <image name> - assign random ports.
+9. netstat -tulpn - check ports.
+10. docker ps -q - all the container IDs (running).
+11. docker ps -qa - all containers IDs (exited or running).
+12. docker run -d --name <container_name> <image_name> - gives name to your container(while container is running).
+13. docker rename <cont id> <newname> - rename an existing container.
+14. docker start <container id> - start the container.
+15. docker stop <container id> - stop the container.
+16. docker rm <container id> - remove container.
+17. docker exec -it <container id> bash - enter into existing container or run a command inside
+it.
+18. docker exec <container id> <command> - execute command inside container without going
+inside.
+19. docker run -it <image name> command (bash or sh) - enter inside container or execute any
+command in container.
+20. docker run <image name> <command> - execute command in running container.
+21. docker stats <container_id> - display container stats.
+22. docker run --name <container_name> -d -P <image_name> - set name for container.
+23. docker container status - check the status of containers.
+24. docker cp index.html <cont id>:/usr/share/nginx/html/index.html - copy file to the
+container.
+
+  
+Working with Container Images:
+25. docker images - list all images in host machine.
+26. docker images ls - same as docker images (list).
+27. docker pull <image name> - pull docker image.
+28. docker image rm <image name> - remove docker image by name.
+29. docker rmi <image id> - remove docker image by ID.
+30. docker prune - remove unused containers and images.
+31. docker tag <container id> newname
+- tag container with new name.
+
+
+  
+Docker Network:
+DOCKER network drivers or types:
+• bridge - connect two different networks, enabling communication between host and Docker
+container.
+• overlay - communication between containers in different networks (used in Docker Swarm).
+• none - no network, container completely isolated.
+• host - container uses the host's network.
+• macvlan - assign a physical MAC address to a container.
+• IPvlan - assign IPv4 or IPv6 addresses to container manually.
+Docker Network Commands:
+32. docker network create --subnet "192.168.0.0/16" --driver bridge newnetwork - create a
+network with a custom subnet.
+33. docker network ls - list all Docker networks.
+34. docker run -d -P --network newnetwork nginx - run container in custom network.
+35. docker run -d -p --network host httpd - run container using host network.
+36. docker run -d -p --network <network_driver_type> <image_name> - run container in a
+specific network type.
+
+
+  
+Docker Volume:
+37. docker volume ls - list all Docker volumes.
+38. docker volume create <newvol1> - create a new Docker volume.
+39. docker run -d -p -v newvol1:/usr/share/nginx/html/ nginx - run container with a mounted
+volume
