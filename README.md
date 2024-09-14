@@ -68,8 +68,8 @@ Each task contains necessary files and a README.md with instructions.
 
 **🚀 How to Use This Repository**<br>
 <br>
-Navigate to the Tool Folder: Browse to the folder for the DevOps tool you want to explore.
-Explore Tasks: Each tool folder contains multiple tasks, each with its own subfolder.
+Navigate to the Tool Folder: Browse to the folder for the DevOps tool you want to explore.<br>
+Explore Tasks: Each tool folder contains multiple tasks, each with its own subfolder.<br>
 Follow Instructions: Inside each task folder, you’ll find a README.md with step-by-step instructions and any necessary files/scripts.
 <br><br>
 **Example:**
