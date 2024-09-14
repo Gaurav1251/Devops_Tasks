@@ -18,6 +18,7 @@ This folder contains various tasks related to Docker, the platform that allows d
     │   └── demonstration.pdf # PDF demonstration for Task-2
     │
     └── README.md             # Overview of Docker-related tasks
+    └── docker_commands.txt   # Neccesarry Docker Commands
 **Each task has its own folder containing:**
 
       A README.md with task instructions.
