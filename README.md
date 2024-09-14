@@ -49,7 +49,7 @@ Welcome to the DevOps Tasks repository! This repository organizes tasks related 
 
     
 Each tool has its own folder with task-specific subdirectories.
-Each task contains necessary files and a README.md with instructions.
+Each task contains necessary files and a README.md with instructions and a demonstrating PDF for visual instructions.
 
 ---
 **🛠 Tools Covered**
