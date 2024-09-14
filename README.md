@@ -11,8 +11,10 @@ Welcome to the DevOps Tasks repository! This repository organizes tasks related 
     ├── Docker/
     │   ├── Task-1/
     │   │   ├── README.md    # Explanation of how to perform Task-1
+    |   |   ├── demo.pdf     # Demonstration PDF for Task-1        
     │   ├── Task-2/
     │   │   ├── README.md    # Explanation of how to perform Task-2
+    |   |   ├── demo.pdf     # Demonstration PDF for Task-2 
     │   └── README.md        # Overview of Docker-related tasks
     │
     ├── Kubernetes/
