@@ -40,7 +40,7 @@ This folder contains various tasks related to Docker, the platform that allows d
 
 Before you start working with the tasks, ensure you have:
 
-Docker installed on your system.
+Docker installed on your system.(if not run the Docker.sh file on ubuntu system only)<br>
 Basic knowledge of Docker commands (e.g., docker pull, docker run, docker build).
 
 <br>
