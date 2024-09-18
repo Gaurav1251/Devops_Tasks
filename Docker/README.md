@@ -28,8 +28,10 @@ This folder contains various tasks related to Docker, the platform that allows d
       
 **🚀 Tasks Overview** 
 
-      1. Creating_First_Dockerfile --> Creating your first Dockerfile involves defining a container for your application, ensuring consistent environments across development and deployment. This task simplifies application management and enhances portability by encapsulating all dependencies within a single image.
-      2. Docker Essentials: Installation and Basic Commands on Ubuntu --> This task involves installing Docker on an Ubuntu system and learning basic commands to manage Docker containers. It covers setting up the Docker environment, pulling images, and running and managing containers for streamlined development and deployment.
+      1. Docker Essentials: Installation and Basic Commands on Ubuntu --> This task involves installing Docker on an Ubuntu system and learning basic commands to manage Docker containers. It covers setting up the Docker environment, pulling images, and running and managing containers for streamlined development and deployment.
+      
+      2. Creating_First_Dockerfile --> Creating your first Dockerfile involves defining a container for your application, ensuring consistent environments across development and deployment. This task simplifies application management and enhances portability by encapsulating all dependencies within a single image.
+      
       3. Student-App-Containerization --> This task involves containerizing a basic student application to ensure consistent development and deployment environments. It simplifies the management of dependencies and configurations, enhancing the app's reliability, scalability, and portability across various platforms.
 
 
