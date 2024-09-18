@@ -40,7 +40,7 @@ This folder contains various tasks related to Docker, the platform that allows d
 
 ---
 
-**🛠 Prerequisites**
+## 🛠 Prerequisites
 
 Before you start working with the tasks, ensure you have:
 
