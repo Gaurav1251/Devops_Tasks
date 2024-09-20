@@ -1,0 +1,23 @@
+FROM  node:14 AS build
+
+RUN apt update -y
+WORKDIR /app
+
+COPY package*.json ./
+
+RUN npm install
+
+COPY . .
+RUN sed -i 's/localhost/3.108.194.171/g' ./src/app/services/worker.service.ts
+
+RUN npm run build
+
+FROM nginx:latest 
+
+WORKDIR /usr/share/nginx/html
+
+COPY --from=build /app/dist/angular-frontend /usr/share/nginx/html
+
+EXPOSE 80
+
+CMD ["nginx", "-g", "daemon off;"]
