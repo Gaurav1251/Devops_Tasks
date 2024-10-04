@@ -68,9 +68,7 @@ Once your cluster is up, you can manage it with these essential commands:
 
     Get Cluster Info:
 
-    bash
-
-kubectl cluster-info
+        kubectl cluster-info
 
     List Nodes:
 
