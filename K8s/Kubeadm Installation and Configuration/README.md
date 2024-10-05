@@ -1,5 +1,8 @@
 # Kubeadm Installation and Configuration
 
+![Screenshot from 2024-10-04 13-28-20](https://github.com/user-attachments/assets/ae53a648-a2fe-44f2-b641-04d891bc7e80)
+
+
 **Overview**
 
 Kubeadm is a tool designed to simplify the process of setting up and managing Kubernetes clusters. It enables users to bootstrap a Kubernetes control plane, add worker nodes, and manage cluster configurations effectively.
