@@ -40,7 +40,7 @@ This folder contains various tasks related to Terraform, an open-source tool for
 
 Before working on the tasks, ensure the following:
 
-    Terraform is installed on your system (if not, follow the setup instructions in the Terraform Installation Guide).
+    Terraform is installed on your system (if not, follow the setup instructions in the Terraform Installation Guide) .
     You have basic knowledge of Terraform commands (e.g., terraform init, terraform apply, terraform plan).
     AWS CLI is configured if you’re working with AWS infrastructure.
 ---
