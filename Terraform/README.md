@@ -18,7 +18,7 @@ This folder contains various tasks related to Terraform, an open-source tool for
     │   └── demonstration.pdf # PDF demonstration for Task-2 (if applicable)
     │
     └── README.md             # Overview of Terraform-related tasks
-    └── terraform_commands.txt # Essential Terraform commands
+    └── terraform_commands.pdf # Essential Terraform commands
 
 **Each task has its own folder containing:**
 
