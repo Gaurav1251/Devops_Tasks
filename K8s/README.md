@@ -32,7 +32,11 @@ This folder contains various tasks related to Kubernetes, the platform for autom
 
 🚀 Tasks Overview
 
-    1. Installing Minikube : 
+    1. Install and Setup EKS CLI for managing Kubernetes clusters on AWS : This guide walks through the installation of the EKS CLI (eksctl) and the creation of a Kubernetes cluster on AWS using the Amazon EKS service. It simplifies the management of Kubernetes clusters on AWS by using a set of easy commands to create, manage, and update clusters.
+
+    2. Install and Setup Minikube on your system : This guide covers the installation and setup of Minikube on an Ubuntu system. Minikube allows you to run a single-node Kubernetes cluster locally, enabling developers to experiment with Kubernetes applications in a lightweight environment.
+
+    3. Kubeadm Installation and Configuration : Kubeadm is a tool designed to simplify the process of setting up and managing Kubernetes clusters. It enables users to bootstrap a Kubernetes control plane, add worker nodes, and manage cluster configurations effectively.
      
 **Note: More tasks will be added as we cover more Kubernetes use cases.**
 
