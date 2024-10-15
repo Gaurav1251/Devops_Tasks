@@ -2,7 +2,7 @@
 ---
 **Overview**
 
-This guide helps you containerize a simple student application by creating Docker images for its frontend, backend, and database components. Containerization ensures consistent environments, enhancing scalability and manageability across different stages of the software lifecycle.<br>
+This guide helps you containerize a simple student application by creating Docker images for its frontend, backend, and database components. Containerization ensures consistent environments, enhancing scalability and manageability across different stages of the software lifecycle.<br><br><br>
 **Prerequisites**
 
     Basic knowledge of Docker.
