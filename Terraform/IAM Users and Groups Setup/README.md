@@ -41,6 +41,7 @@ This Terraform script creates IAM users, an IAM group, and assigns the users to 
 **Instructions:**
 
     Install Terraform: Make sure Terraform is installed. Use this guide if needed.
+https://developer.hashicorp.com/terraform/install?product_intent=terraform
 
     AWS Credentials: Ensure you have valid AWS credentials configured.
 
