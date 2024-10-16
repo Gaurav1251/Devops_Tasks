@@ -37,7 +37,9 @@ This folder contains various tasks related to Kubernetes, the platform for autom
     2. Install and Setup Minikube on your system : This guide covers the installation and setup of Minikube on an Ubuntu system. Minikube allows you to run a single-node Kubernetes cluster locally, enabling developers to experiment with Kubernetes applications in a lightweight environment.
 
     3. Kubeadm Installation and Configuration : Kubeadm is a tool designed to simplify the process of setting up and managing Kubernetes clusters. It enables users to bootstrap a Kubernetes control plane, add worker nodes, and manage cluster configurations effectively.
-     
+
+    4. Kubernetes Deployment Using Pre-built Docker Images for Student Application : This guide helps you deploy a student application on Kubernetes using pre-built Docker images for its database, backend, and frontend components. Kubernetes enables efficient scaling and management of containerized applications across various environments.
+
 **Note: More tasks will be added as we cover more Kubernetes use cases.**
 
 **🛠 Prerequisites**
