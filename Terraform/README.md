@@ -28,12 +28,13 @@ This folder contains various tasks related to Terraform, an open-source tool for
 
 **🚀 Tasks Overview**
 
-    Initialize and Configure AWS Infrastructure: This guide walks through using Terraform to set up basic AWS infrastructure, such as EC2 instances, security groups, and S3 buckets.
+       1. EC2 Instance and S3 Bucket Setup : This Terraform script provisions an EC2 instance and an S3 bucket. EC2 instances provide scalable computing power, while S3 (Simple Storage Service) is a storage service for the internet.
 
-    Manage VPC and Subnets: This guide covers how to create a Virtual Private Cloud (VPC) along with public and private subnets in AWS using Terraform.
+       2. IAM Users and Groups Setup : This Terraform script creates IAM users, an IAM group, and assigns the users to the group. IAM (Identity and Access Management) is used to securely manage access to AWS services.
 
-    Automate Infrastructure with Terraform Modules: This task focuses on reusing code by creating and managing Terraform modules that simplify complex infrastructure deployments.
+       3. VPC and RDS Setup : This Terraform script sets up a Virtual Private Cloud (VPC) with both public and private subnets, an Internet Gateway (IGW), a NAT Gateway, and an Amazon RDS (MySQL) instance within the private subnet.
 
+    
   Note: More tasks will be added as we explore additional Terraform use cases.
 
 **🛠 Prerequisites**
