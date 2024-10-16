@@ -52,7 +52,7 @@ This Terraform script sets up a Virtual Private Cloud (VPC) with both public and
 
 **Instructions:**
 
-  Install Terraform: Download and install Terraform from the official site.
+  Install Terraform: Download and install Terraform from the official site. https://developer.hashicorp.com/terraform/install?product_intent=terraform.
 
   AWS Credentials: Set your AWS credentials by configuring ~/.aws/credentials or setting environment variables:
 
