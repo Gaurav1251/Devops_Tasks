@@ -8,12 +8,12 @@ This folder contains various tasks related to Terraform, an open-source tool for
     Terraform/
     │
     ├── Task-1/
-    │   ├── script.sh         # Script for Task-1 (if applicable)
+    │   ├── script.tf         # Script for Task-1 
     │   ├── README.md         # Instructions for Task-1
     │   └── demonstration.pdf # PDF demonstration for Task-1 (if applicable)
     │
     ├── Task-2/
-    │   ├── script.sh         # Script for Task-2 (if applicable)
+    │   ├── script.tf         # Script for Task-2 
     │   ├── README.md         # Instructions for Task-2
     │   └── demonstration.pdf # PDF demonstration for Task-2 (if applicable)
     │
@@ -23,7 +23,7 @@ This folder contains various tasks related to Terraform, an open-source tool for
 **Each task has its own folder containing:**
 
     README.md: Detailed instructions for performing the task.
-    script.sh (if applicable): A script to automate parts of the task.
+    script.tf : A script to automate parts of the task.
     demonstration.pdf (if applicable): Visual guide or demo of the task.
 
 **🚀 Tasks Overview**
@@ -54,9 +54,9 @@ Before working on the tasks, ensure the following:
 
 **Read the Instructions: Open the README.md in the task folder and follow the steps.**
 
-    Run the Scripts (if applicable): If the task includes a script (script.sh), you can execute it:
+    Run the Scripts (if applicable): If the task includes a script (script.tf), you can execute it:
 
-    ./script.sh
+    ./script.tf
 
  **Refer to the PDF: If provided, view the demonstration.pdf for a visual guide.**
 
