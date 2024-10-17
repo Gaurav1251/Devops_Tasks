@@ -34,6 +34,9 @@ This folder contains various tasks related to Terraform, an open-source tool for
 
        3. VPC and RDS Setup : This Terraform script sets up a Virtual Private Cloud (VPC) with both public and private subnets, an Internet Gateway (IGW), a NAT Gateway, and an Amazon RDS (MySQL) instance within the private subnet.
 
+       4. Automate VPC and EC2 Instance Creation using Terraform Variables : This task involves automating the creation of a Virtual Private Cloud (VPC) and launching an EC2 instance in AWS using Terraform. The configuration utilizes variables to enhance flexibility and ease of customization.
+
+
     
   Note: More tasks will be added as we explore additional Terraform use cases.
 
