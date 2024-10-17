@@ -40,6 +40,8 @@ This folder contains various tasks related to Kubernetes, the platform for autom
 
     4. Kubernetes Deployment Using Pre-built Docker Images for Student Application : This guide helps you deploy a student application on Kubernetes using pre-built Docker images for its database, backend, and frontend components. Kubernetes enables efficient scaling and management of containerized applications across various environments.
 
+    5. Deploy Dockerized 3-Tier Architecture with Angular Frontend, Java Backend, and RDS on Kubernetes : This project outlines the steps to deploy a 3-tier architecture consisting of an Angular frontend, Java backend, and MariaDB (hosted on Amazon RDS) using Kubernetes. The infrastructure is set up to run as Dockerized containers orchestrated by Kubernetes, with backend communication facilitated via a NodePort service.
+
 **Note: More tasks will be added as we cover more Kubernetes use cases.**
 
 **🛠 Prerequisites**
