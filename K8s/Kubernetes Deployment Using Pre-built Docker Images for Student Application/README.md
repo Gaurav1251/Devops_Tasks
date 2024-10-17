@@ -71,8 +71,11 @@ Ensure all the pods and services are running correctly:
     kubectl get services
 
 9. Access the Application
+Allow the ports assigned by NodePort :
 
+       ufw allow port
 To access the student application, run:
+
 
     minikube service fe
 
