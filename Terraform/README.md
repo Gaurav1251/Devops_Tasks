@@ -57,7 +57,7 @@ https://developer.hashicorp.com/terraform/install?product_intent=terraform#linux
 
     Run the Scripts (if applicable): If the task includes a script (script.tf), you can execute it:
 
-    ./script.tf
+    terraform apply -auto-approve
 
  **Refer to the PDF: If provided, view the demonstration.pdf for a visual guide.**
 
