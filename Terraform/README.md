@@ -36,6 +36,11 @@ This folder contains various tasks related to Terraform, an open-source tool for
 
        4. Automate VPC and EC2 Instance Creation using Terraform Variables : This task involves automating the creation of a Virtual Private Cloud (VPC) and launching an EC2 instance in AWS using Terraform. The configuration utilizes variables to enhance flexibility and ease of customization.
 
+       5. Automate VPC and EC2 Instance Creation using Terraform Modules : This task automates the creation of a Virtual Private Cloud (VPC) and EC2 instance in AWS using Terraform modules. Variables are used for flexibility, enabling easy adjustments for different configurations.
+
+
+
+
 
     
   Note: More tasks will be added as we explore additional Terraform use cases.
