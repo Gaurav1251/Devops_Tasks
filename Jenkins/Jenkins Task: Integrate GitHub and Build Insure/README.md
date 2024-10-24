@@ -1,9 +1,7 @@
- #  $$\color{red}  \textbf{Project} \ \  \textbf{InsureMe}$$
+ #  $$\color{red}  \textbf{Project} \ \  \textbf{Jenkins Task: Integrate GitHub and Build "Insure Me" Project}$$
  
 
-InsureMe was having trouble managing their software because it was all one big piece. </br>
-As they grew bigger, it became even harder to manage. <br>
-
+This task focuses on integrating Jenkins with GitHub to clone a repository and build the "Insure Me" project using Jenkins, without implementing a full CI/CD pipeline.
 ### $\color{orange} \textbf{Requirements}$
 
 #### 1. Automated Deployment:</br>
